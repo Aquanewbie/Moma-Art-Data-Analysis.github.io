@@ -1,0 +1,39 @@
+body {
+  background-color: #505050;
+}
+
+
+.customButton{
+  background: salmon !important ;
+  box-shadow:none !important;
+  border: #505050 !important;
+  }
+
+  .btn-xlarge {
+    padding: 9px 9px;
+    font-size: 16px; 
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.MoMATitle {
+  font-size: 16px;
+  color:#505050;
+  font-weight: bold;
+}
+
+.MoMATitlemini {
+  font-size: 12px;
+  color:#505050;
+}
+
+.LinkButton:hover {
+  background-color: #505050;
+  color:salmon
+}
+
+p:hover, .customButton:hover, .MoMATitle:hover, .MoMATitlemini:hover{
+  background-color: yellowgreen;
+}
