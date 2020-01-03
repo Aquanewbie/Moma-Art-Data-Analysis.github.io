@@ -1,1 +1,130 @@
-html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MOMA Collection Analysis</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="Assets/style.css"  media="screen">
+</head>
+
+<body> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light customButton">
+
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="navbar-brand MoMATitle" href="landingpage.html">MoMA Art Collection Diversity Analysis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link MoMATitlemini" href="comparisons.html">All Visualizations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link MoMATitlemini" href="data.html">Data</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle customButton MoMATitlemini" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Data Visualizations
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item LinkButton" href="visualization1.html">Artists Date of Death Chart</a>
+            <a class="dropdown-item LinkButton" href="visualization2.html">MoMA Collection - Artists Birth Countries</a>
+            <a class="dropdown-item LinkButton" href="visualization3.html">MoMA Collection - Artists Born Abroad</a>
+            <a class="dropdown-item LinkButton" href="visualization4.html">MoMA Collection - Gender Representations</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container" id='CompositeGender'>
+        <div class = "row ">
+            <p class='VisComment'> <br></p>
+        </div>
+        <div class = "row">
+            <div class='col-md-2'></div>
+            <div class='col-md-8 WhiteTitle'>
+                <h1 class>MoMA Collection - Gender Representations</h1>
+            </div>
+            <div class='col-md-2'></div>
+        </div>
+        <div class = "row WhiteTitle">
+            <div class='col-md-2'></div>
+            <div class='col-md-8 WhiteTitle'>
+            <p>These visualizations depict ratios of men and women in MoMA's art collection</p>
+            </div>
+            <div class='col-md-2'></div>
+        </div>
+        <div class = "row">
+            <p class='VisComment'> <br></p>
+        </div> 
+    </div> 
+    </div>
+    <div class="container">
+    <div class='row' >
+        <div class = 'col-md-6'>
+            <div class='row' >
+                <div class = 'col-md-12'>
+                <img src="images/CompositeArtistsGender.png" class="img-fluid" style="width:100%" alt="Responsive image">
+                </div>
+            </div>
+            <div class='row'>            
+                <img src="images/AmericanArtistsGender.png" class="img-fluid"  alt="Responsive image">
+                <img src="images/MexicanArtistsGender.png" class="img-fluid"  alt="Responsive image">
+            </div>
+            <div class='row'>            
+                <img src="images/BrazilianArtistsGender.png" class="img-fluid"  alt="Responsive image">
+                <img src="images/JapaneseArtistsGender.png" class="img-fluid"   alt="Responsive image">
+            </div>
+        </div>
+        <div class = 'col-md-4'>
+            <img src="images/MOMA_Artist_Death_Dates.png" class="img-fluid"  alt="Responsive image">
+        </div>
+    </div>
+
+    <div class='row'>
+        <div class='col-md-1'></div>
+        <div class= 'col-md-5'>
+            <img src="images/MOMA_Artist_Nationalities.png" class="img-fluid"  alt="Responsive image">
+        </div>
+        <div class= 'col-md-5'>
+            <img src="images/MOMA_Artist_NationalitiesWOUSA.png" class="img-fluid"  alt="Responsive image">
+        </div>
+        <div class='col-md-1'></div>
+
+    </div>
+
+  <!-- <div class= 'container'>
+    <div class='row'>
+      <div class ='col-md-12'>
+        <img id = 'American People Series #20: Die' class="img-fluid" style="width:100%" alt="Responsive image" src='http://www.moma.org/media/W1siZiIsIjQyNTEyMyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=f8715fe19bba588d'>
+        <p></p>
+      </div>
+    </div>
+    <div class='row'>
+      <div class ='col-md-2'>
+        <p></p>
+      </div>
+      <div class ='col-md-8'>
+        <p class='Annotations'> American People Series #20: Die <br>Faith Ringgold <br>1967 <br>Image Source:
+          <a class = 'PaintingLink' href="https://www.moma.org/collection/works/199915">https://www.moma.org/collection/works/199915</a>
+        </p> 
+      </div>
+      <div class='col-md-2'>
+        <p></p>
+      </div>
+
+    </div>
+  </div>
+</div> -->
+
+
+</body>
+</html>

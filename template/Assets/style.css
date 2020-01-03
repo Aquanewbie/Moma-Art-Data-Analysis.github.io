@@ -79,3 +79,7 @@ h1 {
   font-weight: bold;
   color: White;
 }
+
+#Death {
+  background-image:url('http://www.moma.org/media/W1siZiIsIjE0OTgzMyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=7eb61f967ccd20ab')
+}
