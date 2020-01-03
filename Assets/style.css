@@ -5,12 +5,14 @@ body {
 
 .customButton{
   background: salmon !important ;
+  font-family: "Arial Black", "Arial Bold";
   box-shadow:none !important;
   border: #505050 !important;
   }
 
   .btn-xlarge {
     padding: 9px 9px;
+    font-family: "Arial Black", "Arial Bold";
     font-size: 16px; 
     line-height: normal;
     -webkit-border-radius: 8px;
@@ -19,6 +21,7 @@ body {
 }
 
 .MoMATitle {
+  font-family: "Arial Black", "Arial Bold";
   font-size: 16px;
   color:#505050;
   font-weight: bold;
@@ -26,11 +29,13 @@ body {
 
 
 .MoMATitlemini {
+  font-family: "Arial Black", "Arial Bold";
   font-size: 12px;
   color:#505050;
 }
 
 .LinkButton:hover {
+  font-family: "Arial Black", "Arial Bold";
   background-color: #505050;
   color:salmon
 }
@@ -41,12 +46,14 @@ body {
 
 .VisComment {
   font-size: 20px;
+  font-family: "Arial Black", "Arial Bold";
   color: salmon;
   /* width: 500px; */
   text-align: center;
 }
 
 .Annotations {
+  font-family: "Arial Black", "Arial Bold";
   font-weight: bold;
   font-size: 15px;
   color: salmon;
@@ -54,6 +61,7 @@ body {
 }
 
 .PaintingLink {
+  font-family: "Arial Black", "Arial Bold";
   color: salmon;
   font-weight: bold;
   text-align: center;
@@ -68,6 +76,7 @@ body {
 }
 
 .WhiteTitle {
+  font-family: "Arial Black", "Arial Bold";
   font-weight: bold;
   font-size: 18px;
   color: White;
@@ -75,6 +84,7 @@ body {
 }
 
 h1 {
+  font-family: "Arial Black", "Arial Bold";
   font-size: 30px;
   font-weight: bold;
   color: White;
@@ -83,3 +93,19 @@ h1 {
 #Death {
   background-image:url('http://www.moma.org/media/W1siZiIsIjE0OTgzMyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=7eb61f967ccd20ab')
 }
+
+th {
+  font-family: "Arial Black";
+  background-color: salmon;
+  color: white;
+}
+
+td {
+  font-family: "Arial";
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+tr:hover {background-color: lightseagreen;}

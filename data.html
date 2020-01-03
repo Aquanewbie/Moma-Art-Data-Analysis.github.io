@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MOMA Collection Analysis</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="Assets/style.css"  media="screen">
+</head>
+
+<body> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light customButton">
+
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="navbar-brand MoMATitle" href="landingpage.html">MoMA Art Collection Diversity Analysis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link MoMATitlemini" href="comparisons.html">All Visualizations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link MoMATitlemini" href="data.html">Data</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle customButton MoMATitlemini" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Data Visualizations
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item LinkButton" href="visualization1.html">Artists Date of Death Chart</a>
+            <a class="dropdown-item LinkButton" href="visualization2.html">MoMA Collection - Artists Birth Countries</a>
+            <a class="dropdown-item LinkButton" href="visualization3.html">MoMA Collection - Artists Born Abroad</a>
+            <a class="dropdown-item LinkButton" href="visualization4.html">MoMA Collection - Gender Representations</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="container"><div>
+        <p class='WhiteTitle'> Robot, Open Data. (2020). <br> MoMA Collection - Automatic Monthly Update [Data set]. Zenodo. <br> http://doi.org/10.5281/zenodo.3596224 </p>
+        <table border="1" class="dataframe">
+            <thead>
+              <tr style="text-align: right;">
+                <th></th>
+                <th>ConstituentID</th>
+                <th>DisplayName</th>
+                <th>ArtistBio</th>
+                <th>Nationality</th>
+                <th>Gender</th>
+                <th>BeginDate</th>
+                <th>EndDate</th>
+                <th>Wiki QID</th>
+                <th>ULAN</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>0</th>
+                <td>1</td>
+                <td>Robert Arneson</td>
+                <td>American, 1930–1992</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1930</td>
+                <td>1992</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>1</th>
+                <td>2</td>
+                <td>Doroteo Arnaiz</td>
+                <td>Spanish, born 1936</td>
+                <td>Spanish</td>
+                <td>Male</td>
+                <td>1936</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>2</th>
+                <td>3</td>
+                <td>Bill Arnold</td>
+                <td>American, born 1941</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1941</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>3</th>
+                <td>4</td>
+                <td>Charles Arnoldi</td>
+                <td>American, born 1946</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1946</td>
+                <td>0</td>
+                <td>Q1063584</td>
+                <td>500027998.0</td>
+              </tr>
+              <tr>
+                <th>4</th>
+                <td>5</td>
+                <td>Per Arnoldi</td>
+                <td>Danish, born 1941</td>
+                <td>Danish</td>
+                <td>Male</td>
+                <td>1941</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>5</th>
+                <td>6</td>
+                <td>Danilo Aroldi</td>
+                <td>Italian, born 1925</td>
+                <td>Italian</td>
+                <td>Male</td>
+                <td>1925</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>6</th>
+                <td>7</td>
+                <td>Bill Aron</td>
+                <td>American, born 1941</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1941</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>7</th>
+                <td>9</td>
+                <td>David Aronson</td>
+                <td>American, born Lithuania 1923</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1923</td>
+                <td>0</td>
+                <td>Q5230870</td>
+                <td>500003363.0</td>
+              </tr>
+              <tr>
+                <th>8</th>
+                <td>10</td>
+                <td>Irene Aronson</td>
+                <td>American, born Germany 1918</td>
+                <td>American</td>
+                <td>Female</td>
+                <td>1918</td>
+                <td>0</td>
+                <td>Q19748568</td>
+                <td>500042413.0</td>
+              </tr>
+              <tr>
+                <th>9</th>
+                <td>11</td>
+                <td>Jean (Hans) Arp</td>
+                <td>French, born Germany (Alsace). 1886–1966</td>
+                <td>French</td>
+                <td>Male</td>
+                <td>1886</td>
+                <td>1966</td>
+                <td>Q153739</td>
+                <td>500031000.0</td>
+              </tr>
+              <tr>
+                <th>10</th>
+                <td>12</td>
+                <td>Jüri Arrak</td>
+                <td>Estonian, born 1936</td>
+                <td>Estonian</td>
+                <td>Male</td>
+                <td>1936</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>11</th>
+                <td>13</td>
+                <td>J. Arrelano Fischer</td>
+                <td>Mexican, 1911–1995</td>
+                <td>Mexican</td>
+                <td>Male</td>
+                <td>1911</td>
+                <td>1995</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>12</th>
+                <td>15</td>
+                <td>Folke Arstrom</td>
+                <td>Swedish, 1907–1997</td>
+                <td>Swedish</td>
+                <td>Male</td>
+                <td>1907</td>
+                <td>1997</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>13</th>
+                <td>16</td>
+                <td>Cristobal Arteche</td>
+                <td>Spanish, 1900–1964</td>
+                <td>Spanish</td>
+                <td>Male</td>
+                <td>1900</td>
+                <td>1964</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>15</th>
+                <td>19</td>
+                <td>Richard Artschwager</td>
+                <td>American, 1923–2013</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1923</td>
+                <td>2013</td>
+                <td>Q568262</td>
+                <td>500114981.0</td>
+              </tr>
+              <tr>
+                <th>16</th>
+                <td>21</td>
+                <td>Ruth Asawa</td>
+                <td>American, 1926–2013</td>
+                <td>American</td>
+                <td>Female</td>
+                <td>1926</td>
+                <td>2013</td>
+                <td>Q7382874</td>
+                <td>500077806.0</td>
+              </tr>
+              <tr>
+                <th>17</th>
+                <td>22</td>
+                <td>Isidora Aschheim</td>
+                <td>Israeli</td>
+                <td>Israeli</td>
+                <td>Female</td>
+                <td>0</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>18</th>
+                <td>23</td>
+                <td>Charles Robert Ashbee</td>
+                <td>British, 1863–1942</td>
+                <td>British</td>
+                <td>Male</td>
+                <td>1863</td>
+                <td>1942</td>
+                <td>Q614071</td>
+                <td>500030367.0</td>
+              </tr>
+              <tr>
+                <th>19</th>
+                <td>24</td>
+                <td>Donald Ashcraft</td>
+                <td>American, born 1927</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1927</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>20</th>
+                <td>25</td>
+                <td>E. M. Ashe</td>
+                <td>American, 1867–1941</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1867</td>
+                <td>1941</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>22</th>
+                <td>27</td>
+                <td>Erik Gunnar Asplund</td>
+                <td>Swedish, 1885–1940</td>
+                <td>Swedish</td>
+                <td>Male</td>
+                <td>1885</td>
+                <td>1940</td>
+                <td>Q312070</td>
+                <td>500011232.0</td>
+              </tr>
+              <tr>
+                <th>23</th>
+                <td>28</td>
+                <td>Geneviève Asse</td>
+                <td>French, born 1923</td>
+                <td>French</td>
+                <td>Female</td>
+                <td>1923</td>
+                <td>0</td>
+                <td>Q1978192</td>
+                <td>500025324.0</td>
+              </tr>
+              <tr>
+                <th>24</th>
+                <td>30</td>
+                <td>Sergio Asti</td>
+                <td>Italian, born 1926</td>
+                <td>Italian</td>
+                <td>Male</td>
+                <td>1926</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>25</th>
+                <td>31</td>
+                <td>Dana Atchley</td>
+                <td>American, 1941–2000</td>
+                <td>American</td>
+                <td>Female</td>
+                <td>1941</td>
+                <td>2000</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>28</th>
+                <td>34</td>
+                <td>Alvar Aalto</td>
+                <td>Finnish, 1898–1976</td>
+                <td>Finnish</td>
+                <td>Male</td>
+                <td>1898</td>
+                <td>1976</td>
+                <td>Q82840</td>
+                <td>500002617.0</td>
+              </tr>
+              <tr>
+                <th>29</th>
+                <td>35</td>
+                <td>Aino Aalto</td>
+                <td>Finnish, 1894–1949</td>
+                <td>Finnish</td>
+                <td>Female</td>
+                <td>1894</td>
+                <td>1949</td>
+                <td>Q273511</td>
+                <td>500024110.0</td>
+              </tr>
+              <tr>
+                <th>30</th>
+                <td>36</td>
+                <td>Eero Aarnio</td>
+                <td>Finnish, born 1932</td>
+                <td>Finnish</td>
+                <td>Male</td>
+                <td>1932</td>
+                <td>0</td>
+                <td>Q707025</td>
+                <td>500270610.0</td>
+              </tr>
+              <tr>
+                <th>31</th>
+                <td>37</td>
+                <td>Jules Aarons</td>
+                <td>American, 1921–2008</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1921</td>
+                <td>2008</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>32</th>
+                <td>38</td>
+                <td>Magdalena Abakanowicz</td>
+                <td>Polish, 1930–2017</td>
+                <td>Polish</td>
+                <td>Female</td>
+                <td>1930</td>
+                <td>2017</td>
+                <td>Q158080</td>
+                <td>500084577.0</td>
+              </tr>
+              <tr>
+                <th>33</th>
+                <td>39</td>
+                <td>James Abbe</td>
+                <td>American, 1883–1973</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1883</td>
+                <td>1973</td>
+                <td>Q321301</td>
+                <td>500026671.0</td>
+              </tr>
+              <tr>
+                <th>34</th>
+                <td>40</td>
+                <td>Jussuf Abbo</td>
+                <td>Palestinian, 1888–1953</td>
+                <td>Palestinian</td>
+                <td>Male</td>
+                <td>1888</td>
+                <td>1953</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>35</th>
+                <td>41</td>
+                <td>Berenice Abbott</td>
+                <td>American, 1898–1991</td>
+                <td>American</td>
+                <td>Female</td>
+                <td>1898</td>
+                <td>1991</td>
+                <td>Q231861</td>
+                <td>500020631.0</td>
+              </tr>
+              <tr>
+                <th>36</th>
+                <td>42</td>
+                <td>Nobuya Abe</td>
+                <td>Japanese, 1913–1971</td>
+                <td>Japanese</td>
+                <td>Male</td>
+                <td>1913</td>
+                <td>1971</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>37</th>
+                <td>43</td>
+                <td>Abe Shiro (pen Name: Suichiku)</td>
+                <td>Japanese, born 1900</td>
+                <td>Japanese</td>
+                <td>Male</td>
+                <td>1900</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>38</th>
+                <td>44</td>
+                <td>Robert Abel</td>
+                <td>American, born 1937</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1937</td>
+                <td>0</td>
+                <td>Q7341326</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>39</th>
+                <td>46</td>
+                <td>Sigmund Abeles</td>
+                <td>American, born 1934</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1934</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>40</th>
+                <td>47</td>
+                <td>Raimund Abraham</td>
+                <td>American, born Austria. 1933–2010</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1933</td>
+                <td>2010</td>
+                <td>Q78819</td>
+                <td>500031964.0</td>
+              </tr>
+              <tr>
+                <th>41</th>
+                <td>49</td>
+                <td>Ivor Abrahams</td>
+                <td>British, born 1935</td>
+                <td>British</td>
+                <td>Male</td>
+                <td>1935</td>
+                <td>0</td>
+                <td>Q11714362</td>
+                <td>500012378.0</td>
+              </tr>
+              <tr>
+                <th>42</th>
+                <td>50</td>
+                <td>Gerald Abramovitz</td>
+                <td>British, born South Africa. 1928–2011</td>
+                <td>British</td>
+                <td>Male</td>
+                <td>1928</td>
+                <td>2011</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>43</th>
+                <td>51</td>
+                <td>William Ross Abrams</td>
+                <td>American, 1920–2007</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1920</td>
+                <td>2007</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>44</th>
+                <td>52</td>
+                <td>Rodolfo Abularach</td>
+                <td>Guatemalan, born 1933</td>
+                <td>Guatemalan</td>
+                <td>Male</td>
+                <td>1933</td>
+                <td>0</td>
+                <td>Q7357131</td>
+                <td>500118427.0</td>
+              </tr>
+              <tr>
+                <th>45</th>
+                <td>53</td>
+                <td>Vito Acconci</td>
+                <td>American, 1940–2017</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1940</td>
+                <td>2017</td>
+                <td>Q433471</td>
+                <td>500014538.0</td>
+              </tr>
+              <tr>
+                <th>46</th>
+                <td>54</td>
+                <td>Milton Ackoff</td>
+                <td>American, born 1915</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1915</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>47</th>
+                <td>55</td>
+                <td>Norman Ackroyd</td>
+                <td>British</td>
+                <td>British</td>
+                <td>Male</td>
+                <td>0</td>
+                <td>0</td>
+                <td>Q7051892</td>
+                <td>500029028.0</td>
+              </tr>
+              <tr>
+                <th>48</th>
+                <td>56</td>
+                <td>Luis Alberto Acuña</td>
+                <td>Colombian, 1904–1994</td>
+                <td>Colombian</td>
+                <td>Male</td>
+                <td>1904</td>
+                <td>1994</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>49</th>
+                <td>57</td>
+                <td>Henri Georges Adam</td>
+                <td>French, 1904–1967</td>
+                <td>French</td>
+                <td>Male</td>
+                <td>1904</td>
+                <td>1967</td>
+                <td>Q662900</td>
+                <td>500020748.0</td>
+              </tr>
+              <tr>
+                <th>50</th>
+                <td>58</td>
+                <td>Antoine Samuel Adam-Salomon</td>
+                <td>French, 1818–1881</td>
+                <td>French</td>
+                <td>Male</td>
+                <td>1818</td>
+                <td>1881</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>51</th>
+                <td>59</td>
+                <td>Valerio Adami</td>
+                <td>Italian, born 1935</td>
+                <td>Italian</td>
+                <td>Male</td>
+                <td>1935</td>
+                <td>0</td>
+                <td>Q562139</td>
+                <td>500013534.0</td>
+              </tr>
+              <tr>
+                <th>52</th>
+                <td>60</td>
+                <td>Ansel Adams</td>
+                <td>American, 1902–1984</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1902</td>
+                <td>1984</td>
+                <td>Q60809</td>
+                <td>500026108.0</td>
+              </tr>
+              <tr>
+                <th>53</th>
+                <td>61</td>
+                <td>Alice Adams</td>
+                <td>American, born 1930</td>
+                <td>American</td>
+                <td>Female</td>
+                <td>1930</td>
+                <td>0</td>
+                <td>Q4725709</td>
+                <td>500033075.0</td>
+              </tr>
+              <tr>
+                <th>54</th>
+                <td>62</td>
+                <td>Clinton Adams</td>
+                <td>American, 1918–2002</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1918</td>
+                <td>2002</td>
+                <td>Q5134058</td>
+                <td>500042367.0</td>
+              </tr>
+              <tr>
+                <th>55</th>
+                <td>63</td>
+                <td>Dacres Adams</td>
+                <td>British, 1864–1951</td>
+                <td>British</td>
+                <td>Male</td>
+                <td>1864</td>
+                <td>1951</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>56</th>
+                <td>64</td>
+                <td>Dennis Adams</td>
+                <td>American, born 1948</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1948</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>57</th>
+                <td>65</td>
+                <td>Kenneth M. Adams</td>
+                <td>American, 1897–1966</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1897</td>
+                <td>1966</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>58</th>
+                <td>66</td>
+                <td>Robert Adams</td>
+                <td>American, born 1937</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1937</td>
+                <td>0</td>
+                <td>Q1392710</td>
+                <td>500037036.0</td>
+              </tr>
+              <tr>
+                <th>59</th>
+                <td>67</td>
+                <td>Shelby Lee Adams</td>
+                <td>American, born 1950</td>
+                <td>American</td>
+                <td>Female</td>
+                <td>1950</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>60</th>
+                <td>68</td>
+                <td>Charles Addams</td>
+                <td>American, 1912–1988</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1912</td>
+                <td>1988</td>
+                <td>Q361106</td>
+                <td>500074368.0</td>
+              </tr>
+              <tr>
+                <th>61</th>
+                <td>69</td>
+                <td>Allan Adler</td>
+                <td>American, 1916–2002</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1916</td>
+                <td>2002</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>62</th>
+                <td>70</td>
+                <td>Jankel Adler</td>
+                <td>Polish, 1895–1949</td>
+                <td>Polish</td>
+                <td>Male</td>
+                <td>1895</td>
+                <td>1949</td>
+                <td>Q213726</td>
+                <td>500027359.0</td>
+              </tr>
+              <tr>
+                <th>63</th>
+                <td>71</td>
+                <td>Virginia Admiral</td>
+                <td>American, 1915–2000</td>
+                <td>American</td>
+                <td>Female</td>
+                <td>1915</td>
+                <td>2000</td>
+                <td>Q7815833</td>
+                <td>500044912.0</td>
+              </tr>
+              <tr>
+                <th>64</th>
+                <td>72</td>
+                <td>Pic Adrian</td>
+                <td>Romanian, born 1910</td>
+                <td>Romanian</td>
+                <td>Male</td>
+                <td>1910</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>65</th>
+                <td>74</td>
+                <td>Roy Adzak</td>
+                <td>British, 1927–1987</td>
+                <td>British</td>
+                <td>Male</td>
+                <td>1927</td>
+                <td>1987</td>
+                <td>Q3445734</td>
+                <td>500032997.0</td>
+              </tr>
+              <tr>
+                <th>66</th>
+                <td>76</td>
+                <td>Nicholas Africano</td>
+                <td>American, born 1948</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1948</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>67</th>
+                <td>77</td>
+                <td>Afro (Afro Basaldella)</td>
+                <td>Italian, 1912–1976</td>
+                <td>Italian</td>
+                <td>Male</td>
+                <td>1912</td>
+                <td>1976</td>
+                <td>Q388090</td>
+                <td>500014109.0</td>
+              </tr>
+              <tr>
+                <th>69</th>
+                <td>79</td>
+                <td>Agam (Yaacov Agam)</td>
+                <td>Israeli, born 1928</td>
+                <td>Israeli</td>
+                <td>Male</td>
+                <td>1928</td>
+                <td>0</td>
+                <td>Q276030</td>
+                <td>500019224.0</td>
+              </tr>
+              <tr>
+                <th>70</th>
+                <td>80</td>
+                <td>Mehemed Fehmy Agha</td>
+                <td>American, born Russia. 1896–1978</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1896</td>
+                <td>1978</td>
+                <td>Q3853982</td>
+                <td>500032736.0</td>
+              </tr>
+              <tr>
+                <th>71</th>
+                <td>81</td>
+                <td>Kathleen Agnoli</td>
+                <td>American, born 1945</td>
+                <td>American</td>
+                <td>Female</td>
+                <td>1945</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>72</th>
+                <td>82</td>
+                <td>Peter Agostini</td>
+                <td>American, 1913–1993</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1913</td>
+                <td>1993</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>73</th>
+                <td>83</td>
+                <td>Olympe Aguado de las Marismas</td>
+                <td>French, 1827–1894</td>
+                <td>French</td>
+                <td>Male</td>
+                <td>1827</td>
+                <td>1894</td>
+                <td>Q2734214</td>
+                <td>500345720.0</td>
+              </tr>
+              <tr>
+                <th>74</th>
+                <td>84</td>
+                <td>Dongkuk S. Ahn</td>
+                <td>American, 1937–2013</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1937</td>
+                <td>2013</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>75</th>
+                <td>85</td>
+                <td>Aarne Aho</td>
+                <td>Finnish, 1904–1978</td>
+                <td>Finnish</td>
+                <td>Male</td>
+                <td>1904</td>
+                <td>1978</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>76</th>
+                <td>86</td>
+                <td>Otl Aicher (also known as Otto Aicher)</td>
+                <td>German, 1922–1991</td>
+                <td>German</td>
+                <td>Male</td>
+                <td>1922</td>
+                <td>1991</td>
+                <td>Q61191</td>
+                <td>500058307.0</td>
+              </tr>
+              <tr>
+                <th>77</th>
+                <td>87</td>
+                <td>Lucien Aigner</td>
+                <td>American, born Hungary. 1901–1999</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1901</td>
+                <td>1999</td>
+                <td>Q3265338</td>
+                <td>500043259.0</td>
+              </tr>
+              <tr>
+                <th>78</th>
+                <td>88</td>
+                <td>Gregory Ain</td>
+                <td>American, 1908–1988</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1908</td>
+                <td>1988</td>
+                <td>Q5606793</td>
+                <td>500008108.0</td>
+              </tr>
+              <tr>
+                <th>79</th>
+                <td>89</td>
+                <td>Edgar Ainsworth</td>
+                <td>British, 1906–1975</td>
+                <td>British</td>
+                <td>Male</td>
+                <td>1906</td>
+                <td>1975</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>80</th>
+                <td>91</td>
+                <td>Roberto Aizenberg</td>
+                <td>Argentine, 1928–1996</td>
+                <td>Argentine</td>
+                <td>Male</td>
+                <td>1928</td>
+                <td>1996</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>81</th>
+                <td>92</td>
+                <td>Kinji Akagawa</td>
+                <td>Japanese, born 1940</td>
+                <td>Japanese</td>
+                <td>Male</td>
+                <td>1940</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>82</th>
+                <td>93</td>
+                <td>Ryoji Akiyama</td>
+                <td>Japanese, born 1942</td>
+                <td>Japanese</td>
+                <td>Male</td>
+                <td>1942</td>
+                <td>0</td>
+                <td>Q7385596</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>83</th>
+                <td>94</td>
+                <td>Munira Al-Kazi</td>
+                <td>Kuwaiti, born 1939</td>
+                <td>Kuwaiti</td>
+                <td>Female</td>
+                <td>1939</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>84</th>
+                <td>95</td>
+                <td>Alastair (Hans H. Voight)</td>
+                <td>German, 1887–1969</td>
+                <td>German</td>
+                <td>Male</td>
+                <td>1887</td>
+                <td>1969</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>85</th>
+                <td>96</td>
+                <td>Anni Albers</td>
+                <td>American, born Germany. 1899–1994</td>
+                <td>American</td>
+                <td>Female</td>
+                <td>1899</td>
+                <td>1994</td>
+                <td>Q86078</td>
+                <td>500012591.0</td>
+              </tr>
+              <tr>
+                <th>86</th>
+                <td>97</td>
+                <td>Josef Albers</td>
+                <td>American, born Germany. 1888–1976</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1888</td>
+                <td>1976</td>
+                <td>Q170071</td>
+                <td>500033049.0</td>
+              </tr>
+              <tr>
+                <th>87</th>
+                <td>98</td>
+                <td>Beatrice Albert</td>
+                <td>American</td>
+                <td>American</td>
+                <td>Female</td>
+                <td>0</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>88</th>
+                <td>99</td>
+                <td>Joan Albert</td>
+                <td>American, 1943–2012</td>
+                <td>American</td>
+                <td>Female</td>
+                <td>1943</td>
+                <td>2012</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>89</th>
+                <td>100</td>
+                <td>Ivan LeLorraine Albright</td>
+                <td>American, 1897–1983</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1897</td>
+                <td>1983</td>
+                <td>Q1392676</td>
+                <td>500016413.0</td>
+              </tr>
+              <tr>
+                <th>91</th>
+                <td>103</td>
+                <td>Albert Alcalay</td>
+                <td>American, 1917–2008</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1917</td>
+                <td>2008</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>92</th>
+                <td>104</td>
+                <td>L. (Alfred Lewin Copley) Alcopley</td>
+                <td>American, born Germany. 1910–1992</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1910</td>
+                <td>1992</td>
+                <td>Q3611295</td>
+                <td>500019879.0</td>
+              </tr>
+              <tr>
+                <th>94</th>
+                <td>106</td>
+                <td>Alan Aldridge</td>
+                <td>British, born 1943</td>
+                <td>British</td>
+                <td>Male</td>
+                <td>1943</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>95</th>
+                <td>107</td>
+                <td>Pierre Alechinsky</td>
+                <td>Belgian, born 1927</td>
+                <td>Belgian</td>
+                <td>Male</td>
+                <td>1927</td>
+                <td>0</td>
+                <td>Q328248</td>
+                <td>500027985.0</td>
+              </tr>
+              <tr>
+                <th>96</th>
+                <td>108</td>
+                <td>Peter Alexander</td>
+                <td>American, born 1939</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1939</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>97</th>
+                <td>111</td>
+                <td>Carlo Alfano</td>
+                <td>Italian</td>
+                <td>Italian</td>
+                <td>Male</td>
+                <td>0</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>98</th>
+                <td>112</td>
+                <td>José R. Alicea</td>
+                <td>American, born Puerto Rico 1928</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1928</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>100</th>
+                <td>114</td>
+                <td>James Alinder</td>
+                <td>American, born 1941</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1941</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>101</th>
+                <td>115</td>
+                <td>Yves Alix</td>
+                <td>French, 1890–1969</td>
+                <td>French</td>
+                <td>Male</td>
+                <td>1890</td>
+                <td>1969</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>102</th>
+                <td>116</td>
+                <td>Wobbe Alkema</td>
+                <td>Dutch, 1900–1984</td>
+                <td>Dutch</td>
+                <td>Male</td>
+                <td>1900</td>
+                <td>1984</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>103</th>
+                <td>117</td>
+                <td>William Allan</td>
+                <td>American, born 1936</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1936</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>104</th>
+                <td>118</td>
+                <td>Alexander Alland</td>
+                <td>American, born Russia. 1902–1989</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1902</td>
+                <td>1989</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>105</th>
+                <td>119</td>
+                <td>Harry Allen</td>
+                <td>American, born 1964</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1964</td>
+                <td>0</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+              <tr>
+                <th>106</th>
+                <td>120</td>
+                <td>Terry Allen</td>
+                <td>American, born 1943</td>
+                <td>American</td>
+                <td>Male</td>
+                <td>1943</td>
+                <td>0</td>
+                <td>Q1279401</td>
+                <td>500103769.0</td>
+              </tr>
+              <tr>
+                <th>107</th>
+                <td>121</td>
+                <td>Adrian Allinson</td>
+                <td>British, 1890–1959</td>
+                <td>British</td>
+                <td>Male</td>
+                <td>1890</td>
+                <td>1959</td>
+                <td>NaN</td>
+                <td>NaN</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+        
+
+  <!-- <div class= 'container'>
+    <div class='row'>
+      <div class ='col-md-12'>
+        <img id = 'American People Series #20: Die' class="img-fluid" style="width:100%" alt="Responsive image" src='http://www.moma.org/media/W1siZiIsIjQyNTEyMyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=f8715fe19bba588d'>
+        <p></p>
+      </div>
+    </div>
+    <div class='row'>
+      <div class ='col-md-2'>
+        <p></p>
+      </div>
+      <div class ='col-md-8'>
+        <p class='Annotations'> American People Series #20: Die <br>Faith Ringgold <br>1967 <br>Image Source:
+          <a class = 'PaintingLink' href="https://www.moma.org/collection/works/199915">https://www.moma.org/collection/works/199915</a>
+        </p> 
+      </div>
+      <div class='col-md-2'>
+        <p></p>
+      </div>
+
+    </div>
+  </div>
+</div> -->
+
+
+</body>
+</html>
