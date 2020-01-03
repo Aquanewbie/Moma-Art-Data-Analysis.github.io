@@ -24,6 +24,7 @@ body {
   font-weight: bold;
 }
 
+
 .MoMATitlemini {
   font-size: 12px;
   color:#505050;
@@ -34,6 +35,47 @@ body {
   color:salmon
 }
 
-p:hover, .customButton:hover, .MoMATitle:hover, .MoMATitlemini:hover{
-  background-color: yellowgreen;
+.VisComment:hover, .customButton:hover, .MoMATitle:hover, .MoMATitlemini:hover{
+  background-color: lightseagreen;
+}
+
+.VisComment {
+  font-size: 20px;
+  color: salmon;
+  /* width: 500px; */
+  text-align: center;
+}
+
+.Annotations {
+  font-weight: bold;
+  font-size: 15px;
+  color: salmon;
+  text-align: center;
+}
+
+.PaintingLink {
+  color: salmon;
+  font-weight: bold;
+  text-align: center;
+}
+
+.PaintingLink:hover {
+  color:lightseagreen;
+}
+
+#CompositeGender {
+  background-image:url('http://www.moma.org/media/W1siZiIsIjQyNTEyMyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=f8715fe19bba588d')
+}
+
+.WhiteTitle {
+  font-weight: bold;
+  font-size: 18px;
+  color: White;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: White;
 }
