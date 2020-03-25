@@ -16,7 +16,7 @@ A website ith multiple pages showcasing data visualizations on the Moma Art Coll
 <img src="/images/HTML_screenshots/HTML_gender_USJAPBRAMEX.png" width = 700> </br>
 -Plot a pie chart for overall artists' genders; create additional gender pie charts for the United States, Mexico, Japan, and Brazil. <br/>
 -All visualizations are plotted with colors utilized in HTML and CSS. <br/>
--All visualizations are plotted with transparent backagrounds. <br/>
+-All visualizations are plotted with transparent backgrounds. <br/>
 
 ## Data Source: ##
 Artist Data is sourced from the Museum of Modern Art (MoMA) Collection<br/>
