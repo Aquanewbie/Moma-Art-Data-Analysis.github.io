@@ -17,13 +17,10 @@ A website ith multiple pages showcasing data visualizations on the Moma Art Coll
 
 ## Conclusions: ##
 
-<img src="/Images/Fruit_Confusion_Matrix.png" height=400>
 -The model predicted every image in the training set accurately. <br/>
 -We received a mean accuracy score of 1.00, a perfect score.v<br/>
 -We believe the data source lacks variability, give the model no room for error when test on images not too different from the images <br/>
-
-<img src="/Images/Predicted_Classifications.png" height=400>
--When utilizing the model to predict the fruit classification of images outside the dataset, the model was found to be highly erroneous. <br/>
+-When utilizing the model to predict the fruit classification of images outside the dataset, the model was found to be highly erroneous.<br/>
 
 ## Data Source: ##
 
@@ -34,13 +31,13 @@ The Museum of Modern Art (MoMA) Collection<br/>
 
 https://github.com/MuseumofModernArt/collection <br/>
 
-<img src="/HTML_screenshots/HTML_data.png" height=200>
-<img src="/HTML_screenshots/HTML_deaths.png" height=200>
-<img src="/HTML_screenshots/HTML_birth.png" height=200>
-<img src="/HTML_screenshots/HTML_birth_abroad.png" height=200>
-<img src="/HTML_screenshots/HTML_gender.png" height=200>
-<img src="/HTML_screenshots/HTML_gender_overall.png" height=200>
-<img src="/HTML_screenshots/HTML_HTML_gender_USJAPBRAMEX.png" height=200>
+<img src="/Images/HTML_screenshots/HTML_data.png" height=200>
+<img src="/Images/HTML_screenshots/HTML_deaths.png" height=200>
+<img src="/Images/HTML_screenshots/HTML_birth.png" height=200>
+<img src="/Images/HTML_screenshots/HTML_birth_abroad.png" height=200>
+<img src="/Images/HTML_screenshots/HTML_gender.png" height=200>
+<img src="/Images/HTML_screenshots/HTML_gender_overall.png" height=200>
+<img src="/Images/HTML_screenshots/HTML_HTML_gender_USJAPBRAMEX.png" height=200>
 
 Three examples above are a snapshot of the images in the dataset. <br/>
 
