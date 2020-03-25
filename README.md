@@ -9,19 +9,19 @@ Please view website here: https://aquanewbie.github.io/Moma-Art-Data-Analysis.gi
 -All visualizations are plotted with colors utilized in HTML and CSS. <br/>
 -All visualizations are plotted with transparent backgrounds. <br/>
 
-## Create a bar chart for artists deaths vs. years of death: ## <br/>
+## Create a bar chart for artists deaths vs. years of death: ## 
 <img src="/images/HTML_screenshots/HTML_deaths.png" width = 700> </br>
 
-## Create a bar chart for artists' birthplace: ## <br/>
+## Create a bar chart for artists' birthplace: ## 
 <img src="/images/HTML_screenshots/HTML_birth.png" width = 700></br>
 
-## Create and additional one excluding artists born in America: ## <br/>
+## Create and additional one excluding artists born in America: ## 
 <img src="/images/HTML_screenshots/HTML_birth_abroad.png" width = 700> </br>
 
 ## Plot a pie chart for overall artists' genders: <br/>
 <img src="/images/HTML_screenshots/HTML_gender_overall.png" width = 700> </br>
 
-## Create additional gender pie charts for the United States, Mexico, Japan, and Brazil: ## <br/>
+## Create additional gender pie charts for the United States, Mexico, Japan, and Brazil: ## 
 <img src="/images/HTML_screenshots/HTML_gender_USJAPBRAMEX.png" width = 700> </br>
 
 
