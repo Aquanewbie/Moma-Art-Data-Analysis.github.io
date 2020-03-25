@@ -31,13 +31,13 @@ The Museum of Modern Art (MoMA) Collection<br/>
 
 https://github.com/MuseumofModernArt/collection <br/>
 
-<img src="/Images/HTML_screenshots/HTML_data.png" height=200>
-<img src="/Images/HTML_screenshots/HTML_deaths.png" height=200>
-<img src="/Images/HTML_screenshots/HTML_birth.png" height=200>
-<img src="/Images/HTML_screenshots/HTML_birth_abroad.png" height=200>
-<img src="/Images/HTML_screenshots/HTML_gender.png" height=200>
-<img src="/Images/HTML_screenshots/HTML_gender_overall.png" height=200>
-<img src="/Images/HTML_screenshots/HTML_HTML_gender_USJAPBRAMEX.png" height=200>
+<img src="/images/HTML_screenshots/HTML_data.png" height=200>
+<img src="/images/HTML_screenshots/HTML_deaths.png" height=200>
+<img src="/images/HTML_screenshots/HTML_birth.png" height=200>
+<img src="/images/HTML_screenshots/HTML_birth_abroad.png" height=200>
+<img src="/images/HTML_screenshots/HTML_gender.png" height=200>
+<img src="/images/HTML_screenshots/HTML_gender_overall.png" height=200>
+<img src="/images/HTML_screenshots/HTML_HTML_gender_USJAPBRAMEX.png" height=200>
 
 Three examples above are a snapshot of the images in the dataset. <br/>
 
