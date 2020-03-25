@@ -15,7 +15,7 @@ Please view website here: https://aquanewbie.github.io/Moma-Art-Data-Analysis.gi
 ## Create a bar chart for artists' birthplace: ## 
 <img src="/images/HTML_screenshots/HTML_birth.png" width = 700></br>
 
-## Create and additional one excluding artists born in America: ## 
+## Create an additional one excluding artists born in America: ## 
 <img src="/images/HTML_screenshots/HTML_birth_abroad.png" width = 700> </br>
 
 ## Plot a pie chart for overall artists' genders: <br/>
