@@ -10,16 +10,6 @@ body {
   border: #505050 !important;
   }
 
-  .btn-xlarge {
-    padding: 9px 9px;
-    font-family: "Arial Black", "Arial Bold";
-    font-size: 16px; 
-    line-height: normal;
-    -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
-}
-
 .MoMATitle {
   font-family: "Arial Black", "Arial Bold";
   font-size: 16px;
@@ -40,7 +30,7 @@ body {
   color:salmon
 }
 
-.VisComment:hover, .customButton:hover, .MoMATitle:hover, .MoMATitlemini:hover{
+.customButton:hover, .MoMATitle:hover, .MoMATitlemini:hover{
   background-color: lightseagreen;
 }
 
